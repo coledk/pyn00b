@@ -1,0 +1,5 @@
+X = int(input())
+H = int(input())
+M = int(input())
+print ( int(X + H*60 + M) // 60 )
+print ( int(X + H*60 + M) % 60 )
