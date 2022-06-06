@@ -6,4 +6,11 @@
 
 import math
 r = float(input())
-print(2*math.pi*r)
+print(2 * math.pi * r)
+
+# Или...
+#from math import tau
+#print(float(input()) * tau)
+
+# Или...
+#print(__import__('math').pi * 2 * float(input()))

@@ -8,4 +8,15 @@
 # переменную argv из этого модуля
 
 import sys
-print (sys.argv[1:len(sys.argv)])
+print (*sys.argv[1:len(sys.argv)], sep=' ')
+
+# Или...
+#import sys
+#print(*sys.argv[1:])
+
+# Или...
+# print(*__import__("sys").argv[1:])
+
+# Или...
+# from sys import argv
+# print(*argv[1:])
