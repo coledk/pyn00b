@@ -4,7 +4,6 @@
 # на стандартный ввод радиуса круга периметр
 # этого круга и выводит его на стандартный вывод.
 
-from math import pi
-
+import math
 r = float(input())
-print(2*3.14*r)
+print(2*math.pi*r)
